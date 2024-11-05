@@ -1,0 +1,36 @@
+/* src/pages/Services/Services.css */
+.services-container {
+    background-color: black; /* Set the background color for the service container */
+    color: white; /* Set the text color for better visibility */
+    padding: 20px; /* Add padding around the content */
+    text-align: center; /* Center the text */
+}
+
+.videos-container, .websites-container {
+    margin-top: 20px; /* Space above the videos/websites */
+}
+
+.videos-container iframe {
+    margin: 10px; /* Space around the iframes */
+    border: none; /* Remove border around the iframe */
+    width: 80%; /* Adjust width to make it responsive */
+    height: 315px; /* Fixed height for the videos */
+}
+
+.websites-container ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.websites-container li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.websites-container a {
+    color: lightblue; /* Color for links */
+    text-decoration: underline; /* Underline links */
+}
+
+.websites-container a:hover {
+    color: yellow; /* Change color on hover for better UX */
+}
